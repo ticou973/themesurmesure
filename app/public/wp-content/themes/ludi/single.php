@@ -4,7 +4,7 @@
     <article class="post">
 
         <?php the_post_thumbnail(); ?>
-        <?php echo 'TOTO Hello'?>
+        <?php echo 'TOTO Hello hello hello'?>
 
         <h1><?php the_title(); ?></h1>
 
