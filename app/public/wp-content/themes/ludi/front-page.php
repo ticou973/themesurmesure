@@ -6,6 +6,17 @@
 
     <?php the_content(); ?>
 
+    <p>
+        <strong>Note :</strong>
+		<?php echo get_post_meta( get_the_ID(), 'Note', true ); ?> / 10
+    </p>
+
+    <div class="plus-moins">
+        <div class="plus">
+			<?php echo get_post_meta( get_the_ID(), 'Plus', true ); ?>
+        </div>
+    </div>
+
 <?php endwhile; endif; ?>
 
     <aside class="site__sidebar">
