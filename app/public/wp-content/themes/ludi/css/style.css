@@ -1,0 +1,32 @@
+/*
+Theme Name: Ludi
+Theme URI: https://https://site-web-pro.let-us-do-it.fr/
+Author: Thierry Couilleault
+Author URI: https://https://site-web-pro.let-us-do-it.fr/
+Description: Thème Ludi !
+Requires at least: WordPress 5.0
+Version: 1.0
+*/
+header a img{
+    display:block;
+    width:10vw;
+    margin:auto;
+}
+
+#logo_header{
+    background-color: #000000;
+    opacity:0.5;
+}
+#search_logo{
+    width:1.5vw !important;
+    margin-left:0.5vw;
+}
+
+label[for="search"]{
+    color:#ffffff;
+}
+
+.site__navigation__prev{
+    color:#000000 !important;
+}
+
